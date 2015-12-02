@@ -265,13 +265,17 @@ nav{
 }
 .title{
   position: absolute;
-  width: 120px;
+  width: 180px;
   text-align: center;
 }
 .title img{
   float: left;
   margin: 4px 0 0 4px;
   width: 32px;
+}
+.title h1{
+  float: left;
+  color: #6fa8a8;
 }
 .title h2{
   float: left;
