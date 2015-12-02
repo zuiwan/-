@@ -1,57 +1,544 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<!doctype html>
+<html lang="zh-CN">
+<head>
     <meta charset="UTF-8">
-    <title>gate by zuiwan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">gate</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/zuiwan/-" class="btn">View on GitHub</a>
-      <a href="https://github.com/zuiwan/-/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/zuiwan/-/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="最全面的华科导航网站，打造华科最便捷的信息通道">
+    <meta name="keyword" content="华中科技大学,华中大,HUST,华科任意门,">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <base target="_blank">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script type="text/javascript">alert("您正在使用IE9以下版本的浏览器，为了您的正常体验及安全，请升级！")</script>
+    <![endif]-->
+    <title>HUST任意门 - 华科最全面的导航网站</title>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="nav-title">
+                <h1>华科任意门</h1>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a class="selected" href="#common-use" target="_self">常用</a></li>
+                    <li><a href="#service" target="_self">服务资讯</a></li>
+                    <li><a href="#academy" target="_self">院系</a></li>
+                    <li><a href="#club" target="_self">社团组织</a></li>
+                    <li><a href="#organization" target="_self">校内机构</a></li>
+                    <li><a href="#graduate" target="_self">研究生</a></li>
+                    <li><a href="#software" target="_self">校园软件</a></li>
+                </ul>
+                <span class="nav-underline" style="display:none"></span>
+                <div class="nav-toggle">
+                    <span class="nav-toggle-btn"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main" id="main">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+        <div class="web-icon">
+            <div class="renyimen-logo"></div>
+            <div class="cloud"></div>
+        </div>   
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+        <div class="common-use" id="common-use">
+            <div class="common-web">
+                <a class="website-icon" href="http://www.hust.edu.cn/"><img src="asset/img/weblogo/1_hzkjdxgw.png" alt="华中科技大学"></a>
+                <a class="website-icon" href="http://hub.hust.edu.cn/"><img src="asset/img/weblogo/2_hub.png" alt="HUB系统"></a>
+                <a class="website-icon" href="http://zuiwan.hust.edu.com"><img src="asset/img/weblogo/3_zuiwan.png" alt="醉晚亭"></a>
+                <a class="website-icon" href="http://jwc.hust.edu.cn"><img src="asset/img/weblogo/5_jiaowuchu.png" alt="教务处"></a>
+                <a class="website-icon" href="http://curriculum.hust.edu.cn/"><img src="asset/img/weblogo/6_kczx.png" alt="课程中心"></a>
+                <a class="website-icon" href="http://tieba.baidu.com/f?kw=huster"><img src="asset/img/weblogo/7_tieba.png" alt="华中科技大学吧"></a>
+                <a class="website-icon" href="http://bbs.whnet.edu.cn"><img src="asset/img/weblogo/8_byhhbbs.png" alt="白云黄鹤BBS"></a>
+                <a class="website-icon" href="http://www.lib.hust.edu.cn/"><img src="asset/img/weblogo/9_lib.png" alt="华中科技大学图书馆"></a>
+                <a class="website-icon" href="http://www.kmgtp.org/"><img src="asset/img/weblogo/10_hudie.png" alt="蝴蝶HUDBT"></a>
+                <a class="website-icon" href="202.114.18.218/main.aspx"><img src="asset/img/weblogo/12_hzdxyt.png" alt="电费查询"></a>
+            </div>
+            <div class="common-section">
+                <div class="content-title">[微博]</div>
+                <div class="content-line">
+                    <a href="http://weibo.com/husters">华中科技大学</a>
+                    <a href="http://weibo.com/hustsu">华中大学生会</a>
+                </div>
+                <div class="content-line">
+                    <a href="http://weibo.com/huazhongqingnian">华中青年</a>
+                    <a href="http://weibo.com/u/2493005662">华中大团委</a>
+                </div>
+            </div>
+            <div class="common-section">
+                <div class="content-title">[微信]</div>
+                <div class="content-line">
+                    <a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt8Ll6NcrSPWKUFg-wWvxJig&ext=JWYPUbr8sGrBQ_PmaUjQkVMRGUCRJq14C0CrSysvIe__e1ZZ8nCBcshX7S4eg-CH">华中科技大学</a>
+                    <a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt-g53O550Vvs8t5jgjUWkKs&ext=JWYPUbr8sGpb5CtrQ0OOHqkWjgR9apuI_6Zt8g199uwpMOP3-G0ZODxUQRDCkXQ0">华中大理想青年</a>
+                </div>
+                <div class="content-line">
+                    <a href="http://hub.hust.edu.cn/">华中大HUB系统</a>
+                    <a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt35MEM_4VlE__be4yp15h4I&ext=JWYPUbr8sGp1PNxRHaQP-vkA_i9U9pHGscjiMbu4Wxgcz_wCaDdnbibh6n78hN5s">华科学习帝</a>
+                </div>
+            </div>
+        </div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+        <div class="content-wrapper" id="service">
+            <div class="title-bar">
+                <div class="title">
+                    <img src="asset/img/主页/fwzx.png" alt="服务资讯">
+                    <h2>服务资讯</h2>
+                </div>
+                <div class="tab-bar">
+                    <ul>
+                        <li class="on">网站</li>
+                        <li>微信</li>
+                        <li>微博</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="link-bar selected">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://www.hust.edu.cn/">华中科技大学</a></li>
+                        <li><a href="http://hub.hust.edu.cn/">HUB系统</a></li>
+                        <li><a href="http://e.hust.edu.cn/">综合信息网</a></li>
+                        <li><a href="http://weekly.hustnews.com/index/">电子校报</a></li>
+                        <li><a href="http://hustonline.net/ ">华中大在线</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://zuiwan.hust.edu.cn">醉晚亭</a></li>
+                        <li><a href="http://jwc.hust.edu.cn">教务处</a></li>
+                        <li><a href="http://student.hust.edu.cn/">学生工作处</a></li>
+                        <li><a href="http://www.lib.hust.edu.cn/">图书馆</a></li>
+                        <li><a href="http://registrar.hust.edu.cn">注册中心</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://ik.hustonline.net/">iknow</a></li>
+                        <li><a href="http://www.2shoujie.com/">校园二手街</a></li>
+                        <li><a href="http://bbs.whnet.edu.cn/">白云黄鹤BBS</a></li>
+                        <li><a href="http://tieba.baidu.com/f?kw=huster">华中科技大学吧</a></li>
+                        <li><a href="http://tv.hustonline.net/">华中大网视</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="service.html">>>>more</a>
+                </div>
+            </div>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+            <div class="link-bar">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt8Ll6NcrSPWKUFg-wWvxJig&ext=JWYPUbr8sGrBQ_PmaUjQkVMRGUCRJq14C0CrSysvIe__e1ZZ8nCBcshX7S4eg-CH">华中科技大学</a></li>
+                        <li><a href="http://hub.hust.edu.cn/">HUB系统</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt_T2r9KaOhpWKmxbKNUFcqg&ext=JWYPUbr8sGqZhm8LmwJujHp8WcAGjv9BlOnGYfIcDGqML3SIY-felYKYRPLyUDel">华中科技大学学生会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt-g53O550Vvs8t5jgjUWkKs&ext=JWYPUbr8sGpb5CtrQ0OOHqkWjgR9apuI_6Zt8g199uwpMOP3-G0ZODxUQRDCkXQ0">华中大理想青年</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt9aoPPbk2c2-Nzx2t47-ViI&ext=JWYPUbr8sGq1i8YB-UvIEqGfWtHFnKLM6roD32rArkMRVu_AL4onwqUtoOde77IJ">华中大资讯通</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt3aFAskrIWA7lYx2WKgf9lw&ext=JWYPUbr8sGpfoXggcWkrljZffkqXxvZVc7oUKj72UGE8wQrn8NiaiO99XbEpqMiP">华中大招生办公室</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6iW8HmQFkJgV18CbroU2gs&ext=JWYPUbr8sGp-8Vlvwqbrl1xOouVed0xldVEHW753aSR35R7gi8bbIReWEF1m5kjg">大学生就业指导中心</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt35MEM_4VlE__be4yp15h4I&ext=JWYPUbr8sGp1PNxRHaQP-vkA_i9U9pHGscjiMbu4Wxgcz_wCaDdnbibh6n78hN5s">华科学习帝</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt--umYJHDQItBKA7qJCZjZw&ext=JWYPUbr8sGoDcp8CFcICAR3r80ZgEygOXJKxIkYDQIQ1_kursBAeaNKRpb3hC72p">华中大二手市场</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt-duqljO-oXRokefyKE6iYs&ext=JWYPUbr8sGrOI37imEyJ3tQwqZDvLrKylqqSy4oVHrSwz0_kj7id6zK-EUPzm19k">HUST实习</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt7SF5WCJOkZ5t4qtmhz5OOU&ext=rgljaGmlw7CZjIFQxnB0KW6yz9lT4sS8awwK9Dq_IQlBlNVflZmytwWGSuDDoV-r">华科生活圈</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6BPrX0kw9gCeFG3T9kNJzY&ext=rgljaGmlw7A9qdP1uid9dLoldc_u76GVvnx2EzI_qqJNi862FSbnsfg8Zd91f04B">华中大记者团</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt60PJp__nX4hyZr-eBtv0J0&ext=rgljaGmlw7CZtTn0_LyWwEcebws-_CFbeURxCylfkoxQtvkgfey4mxo1cZ7fD0Op">HUST学工在线</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt1TnN3KaSQIrSOfeE2ruWRs&ext=rgljaGmlw7DsvYdHqE80uuFYKum4kTs-RY1mC6ymz8aSr2Jm0Z7ZiHm9sqn2wyan">华科票务</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="service.html">>>>more</a>
+                </div>
+            </div>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+            <div class="link-bar nochange">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/husters">华中科技大学</a></li>
+                        <li><a href="http://weibo.com/u/2493005662">华中大团委</a></li>
+                        <li><a href="http://weibo.com/hustzsb">华中大本科生招生</a></li>
+                        <li><a href="http://weibo.com/u/1832354054">华中大资讯</a></li>
+                        <li><a href="http://weibo.com/u/2829776844">华中科技大学论坛</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/whnetbbs">华中大白云黄鹤</a></li>
+                        <li><a href="http://weibo.com/wbhust">华中大微博协会</a></li>
+                        <li><a href="http://weibo.com/hustonline">华中大在线</a></li>
+                        <li><a href="http://weibo.com/huazhongqingnian">华中青年</a></li>
+                        <li><a href="http://weibo.com/u/3628372690">社区法律服务中心</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="service.html">>>>more</a>
+                </div>
+            </div>
+        </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/zuiwan/-">gate</a> is maintained by <a href="https://github.com/zuiwan">zuiwan</a>.</span>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+        <div class="content-wrapper" id="academy">
+            <div class="title-bar">
+                <div class="title">
+                    <img src="asset/img/主页/yx.png" alt="院系">
+                    <h2>院系信息</h2>
+                </div>
+                <div class="tab-bar">
+                    <ul>
+                        <li class="on">网站</li>
+                        <li>微信</li>
+                        <li>微博</li>
+                    </ul>
+                </div>
+            </div>
 
-    </section>
+            <div class="link-bar selected">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://mse.hust.edu.cn">机械科学与工程</a></li>
+                        <li><a href="http://www.cs.hust.edu.cn">计算机科学与技术</a></li>
+                        <li><a href="http://life.hust.edu.cn">生命科学与技术学院</a></li>
+                        <li><a href="http://ceee.hust.edu.cn">电气与电子工程</a></li>
+                        <li><a href="http://mat.hust.edu.cn">材料科学与工程</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://oei.hust.edu.cn">光学与电子信息</a></li>
+                        <li><a href="http://hae.hust.edu.cn">水电与数字化工程</a></li>
+                        <li><a href="http://sse.hust.edu.cn">软件学院</a></li>
+                        <li><a href="http://ese.hust.edu.cn">环境科学与工程</a></li>
+                        <li><a href="http://ei.hust.edu.cn">电子信息与通信</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://ch.hust.edu.cn">船舶与海洋工程</a></li>
+                        <li><a href="http://energy.hust.edu.cn">能源与动力工程</a></li>
+                        <li><a href="http://auto.hust.edu.cn">自动化</a></li>
+                        <li><a href="http://guoxue.hust.edu.cn">国学研究所</a></li>
+                        <li><a href="http://aup.hust.edu.cn">建筑与城市规划</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="academy.html">>>>more</a>
+                </div>
+            </div>
 
-  
-  </body>
+            <div class="link-bar">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt9B26IbiTZ676fAUIgo-Ucw&ext=zMKRwhGG3zYmEeP4uyjHTW3wXWdQui0ansYpNglY31XDvQMesO2Mz1wm7bniDTbf">HUST机械学院团学联</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtwV7lFj4qQ9_LN6WU45oNiI&ext=zMKRwhGG3zYJwtTWSasQiPItXmkZ5xbH5sWNYNFBFEDnF4oBp5YX_I5WCk_wE63Y">华中大计算机学生会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtxDnYrR_FyLEuEioIfukzdg&ext=zMKRwhGG3zYADj4DEGK1DAVhWHUED9IEeSy6MxXpoMYLInpbyAXrGWIY505udgam">生科小助手</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6fYmRoeghpst2YWih5K8s0&ext=zMKRwhGG3zaDiwjUjSxreUPQ8O779l588lpBxND-X7JFdqjuvV1JkVYWsytUvNuy">皮卡君公共服务平台(电气)</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt3Y2J_99kpQV6S0VLJaKSAk&ext=zMKRwhGG3zYkkCn3MvTdPsxXNd9jf5ftpjDGoTivPSBMy6YAmqpEA69SCYXxFG3P">华中大电信学院</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt8-N3YZgjuIsBf8MkvaVCh8&ext=zMKRwhGG3zZbsCqdydYL1nzApG4l5028zkyI81z2883Xn3FCEF21Tl_egZxsJWUM">船大人</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt7zVaI6A9GcyubvTyxNOSfs&ext=zMKRwhGG3zZ-vVXNdA_qlJCR1HxMdvoojScaQi2peu32eUMRahKnGOE74KYW_5WY">自动化小灵通</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt92r3ZnWXArJI-XEyxJ8mrs&ext=zMKRwhGG3zZ0saPHKOqm7hzdijxp98KngLKskuEIybmECPo9RGqzv0yDv5bhiMLU">光小电的卖萌世界</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt3gVLvPeX93IIxrc2WfIvlc&ext=zMKRwhGG3zb6BH36jAvluY1vvXIVKMumZBjpADRZPOw9W7OA-tLk3NhphgbVV69I">华中大水电学院</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6lXh4fU-i5HKQsFErgmBCY&ext=zMKRwhGG3zYnz4_uBlZq7T5nhxr4sKHgFdpVMM-SBCByKC-G30SlopB5iCNHcO99">华中大软件联盟</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt_Tc0AXrwx78y_z71wgKJRs&ext=rgljaGmlw7DsJli_M2sOB5I0RlW8PZcmQyd6dhrD1eMBlNnnDI6afVgeysVVZaFA">华中大风华土木</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt2bK7C4edyzveOK-I5bDEns&ext=rgljaGmlw7BB4dTLHhMXYtu59LuWo1cOUeINr48tcO-5JFE2L6vduFo9PEc5TbE8">华中大化院新闻中心</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt4sos7jr6Ydk2gjt3hktX7Y&ext=rgljaGmlw7DI59ZRYickKkwf6tQV_YV49d37TIquzVak_jeY8wuD6EZ70fLXrcYs">Hustmaths(数学)</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt4f8THniohHLcfv_xqp3Ba4&ext=rgljaGmlw7Bo5yG1KRHJhBlUW0dCPrSJlooDJP4Vh0OGlNX2f_S329fzDAIfuu5d">PhyHust(物理)</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtyvg_QJP1MFQEHviS0zqcNM&ext=rgljaGmlw7AwEBCCziywqq0cKrHLgIhI8WlR_6QssCkXcnJre0rA6oG7lEmhF1t_">husteco(经济)</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="academy.html">>>>more</a>
+                </div>
+            </div>
+
+            <div class="link-bar nochange">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/hustmse">材料学院</a></li>
+                        <li><a href="http://weibo.com/cshust">计算机学院</a></li>
+                        <li><a href="http://weibo.com/ecohust">经济学院</a></li>
+                        <li><a href="http://weibo.com/u/2034878305">新闻与信息传播学院</a></li>
+                        <li><a href="http://weibo.com/u/3877285434">播音与主持专业</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/husthaer">水电学院</a></li>
+                        <li><a href="http://weibo.com/u/2103569094">物理学院</a></li>
+                        <li><a href="http://weibo.com/u/2661746381">外国语学院</a></li>
+                        <li><a href="http://weibo.com/tjer">华科同济医学院</a></li>
+                        <li><a href="http://weibo.com/u/2900952963">建筑与城市规划学院</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class="content-wrapper" id="club">
+            <div class="title-bar">
+                <div class="title">
+                    <img src="asset/img/主页/st.png" alt="社团组织">
+                    <h2>社团组织</h2>
+                </div>
+                <div class="tab-bar">
+                    <ul>
+                        <li class="on">网站</li>
+                        <li>微信</li>
+                        <li>微博</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="link-bar selected nochange">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://www.bingyan.net/">冰岩作坊</a></li>
+                        <li><a href="http://www.dian.org.cn/">Dian团队</a></li>
+                        <li><a href="http://www.hustunique.com/">联创团队</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://aunet.sinnapp.com">社团网</a></li>
+                        <li><a href="http://sti.hust.edu.cn/">电工电子科创中心</a></li>
+                        <li><a href="http://aoikaze.moe">风蓝动漫社</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="link-bar">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6KBessiDHp_c6Bokjs1z9U&ext=zMKRwhGG3zbAOFIsqHm65tlHtoHIS-qynoodUg2lSaYTlKmT9U7yERkL5udS1nCE">大手拉小手公益团队</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt1Q6ZPAqn7Hfg9ywBZ5JFvY&ext=zMKRwhGG3zZ0uFOD8oIg_OKEfKskCeHHZmucXlGKk9JlvsXWa1UXBaW_lKCzJjce">Hust拉丁舞</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt-MLGpE1lmfWUAuDD5_SL_Q&ext=zMKRwhGG3zakP3tj7P3M2JX8oSTI14SM8VVzaLm7Ws0nH2rlfqo3iwDljJHhFcI3">HUST科幻</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt9GdMjh7Z_9F0zgpfKG-YRQ&ext=zMKRwhGG3zZED-QkZjTIBZG7HnmIfP_I_3bLyUdr52GiZBcTLk9swdv7niX5gm1C">Hust魔术协会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt-f-qKmHsp6RtogyDSeJfWQ&ext=zMKRwhGG3zbPvPbal_V4i0FfkaSl0OqfnmbsIqQ1oHHf2KhFy8hzldlsm-uOA1Qh">HUST漂流书会</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt0Qzm8PIeublRMjKhNqlGc0&ext=zMKRwhGG3zZCreUiJ8mG5DPg7UPEeoWGk3851VAvrn8eXA3OKWVqdQo9tPGkFUv1">HUST夏雨诗社</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtzLrIA0V5haThho0Nl_LF9E&ext=zMKRwhGG3zYWH2kjRpgBYIpm1VwtHG6l_azsFwu_yyc1W-V2Q5IVvKIZL-SPtr3v">HUST英协</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt_B8wMS4IKEmec2N9fnKKZ8&ext=zMKRwhGG3zZ1c05oaTHpqrruM58C02OYnTWSv_0htgV_PErb3AzHMvWIyi57wQYz">HUST桌游</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt6PJkwAZkLDTUygyRidczg0&ext=zMKRwhGG3zb0eDEfLriuJgeBN7xTtJAWQNDr6WWcaLsJQG0UrxamJpQBx59zdo3P">HUST远征协会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt5ugky8qJlr7vwEefGRNAeE&ext=zMKRwhGG3zap1a3bAg6EPsaOz8vgaBd1zF9xURsdL5W5ex4e91mLEEofZPekX-Ln">华科奔跑者联盟</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt4M3AfYFVcCnfT18pHHENiQ&ext=rgljaGmlw7CZh7dGL-yjTRvGGf0SdnuEWNFmHm90wMWM27KbUK-3P3RhvwHyI1Si">华科龙舟队</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtw0yaRJ0kRE8LJWGEI58JSs&ext=rgljaGmlw7ArLyzwWJvv046LN9AqsACgrOZnxaNZccfAde6zOVej2xc5-NqZKqKW">华科粤语协会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt4v8_fsLNmXTsi3cy-nUdZ8&ext=rgljaGmlw7BORktGB06djbCwwJiLFTfxoEJfoZHT_tts_2Y53ugJJXG18EeaI9qf">华中大市场营销协会</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFtw3SVzmeK7UyEOjN9mQH_Ek&ext=rgljaGmlw7A8nYRzhkf13PG7yVYuzrsSjWO3yB7v_15La5cMAyJy8MUQTV6nRjAY">华中大网球社</a></li>
+                        <li><a href="http://weixin.sogou.com/gzhwap?openid=oIWsFt7aeq6tC0NmrPUiuI0Pox9E&ext=rgljaGmlw7APJmsrCdnHWiI3OlK-yKWS1DDBSfyYCI_A07MljJ0oGIEuG6wLILVe">华中科技大学羽毛球协会</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="club.html">>>>more</a>
+                </div>
+            </div>
+
+            <div class="link-bar">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/acdr">职业发展研究会</a></li>
+                        <li><a href="http://weibo.com/u/2497163004">校友大讲坛</a></li>
+                        <li><a href="http://weibo.com/yysjb">华科传媒</a></li>
+                        <li><a href="http://weibo.com/yanchuangxiehui">研究生创新创业基地</a></li>
+                        <li><a href="http://weibo.com/husthand">Hust大手拉小手团队</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://weibo.com/uniquestudio">联创团队</a></li>
+                        <li><a href="http://weibo.com/hustradio">华中科技大学广播台</a></li>
+                        <li><a href="http://weibo.com/bingyanhust">冰岩作坊HUST</a></li>
+                        <li><a href="http://weibo.com/diangroup">Dian团队</a></li>
+                        <li><a href="http://weibo.com/u/5285693153">华中大3C</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://weibo.com/hustjztxmt">华中大记者团新媒体</a></li>
+                        <li><a href="http://weibo.com/hustsu">华中科技大学学生会</a></li>
+                        <li><a href="http://weibo.com/hustauer">华中大社联AU</a></li>
+                        <li><a href="http://weibo.com/hustsheshi">华中大社会实践中心</a></li>
+                        <li><a href="http://weibo.com/u/3537100643">华中科技大学SAST</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="club.html">>>>more</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-wrapper" id="organization">
+            <div class="title-bar">
+                <div class="title">
+                    <img src="asset/img/主页/xnjg.png" alt="校内机构">
+                    <h2>校内机构</h2>
+                </div>
+                <div class="tab-bar">
+                    <ul>
+                        <li class="on">网站</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="link-bar selected">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://202.114.18.131">学校办公室</a></li>
+                        <li><a href="http://www.lib.hust.edu.cn/">图书馆</a></li>
+                        <li><a href="http://www2.hust.edu.cn/administration/docoffice/">档案馆</a></li>
+                        <li><a href="http://www.ehust.net/">学生工作处</a></li>
+                        <li><a href="http://zzb.hust.edu.cn">组织部</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://hq.hust.edu.cn">后勤集团</a></li>
+                        <li><a href="http://xgh.hust.edu.cn">校工会</a></li>
+                        <li><a href="http://zwb.hust.edu.cn/">总务长办公室</a></li>
+                        <li><a href="http://www.hustp.com/">出版社</a></li>
+                        <li><a href="http://guard.hust.edu.cn">保卫处</a></li>
+                    </ul>
+                </div>
+                <div class="links mobile">
+                    <ul>
+                        <li><a href="http://hospital.hust.edu.cn/">校医院</a></li>
+                        <li><a href="http://jjc.hust.edu.cn/">基建管理处</a></li>
+                        <li><a href="http://xkb.hust.edu.cn">学科建设办公室</a></li>
+                        <li><a href="http://iec.hust.edu.cn">国际交流处</a></li>
+                        <li><a href="http://gs.hust.edu.cn/">研究生院</a></li>
+                    </ul>
+                </div>
+                <div class="read-more">
+                    <a href="organization.html">>>>more</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-wrapper" id="graduate">
+            <div class="title-bar">
+                <div class="title">
+                    <img src="asset/img/主页/yjs.png" alt="研究生">
+                    <h2>研究生</h2>
+                </div>
+                <div class="tab-bar">
+                    <ul>
+                        <li class="on">网站</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="link-bar selected nochange">
+                <div class="links">
+                    <ul>
+                        <li><a href="http://gs.hust.edu.cn">研究生院</a></li>
+                        <li><a href="http://gszs.hust.edu.cn/GradAdmission/">研究生招生信息网</a></li>
+                        <li><a href="http://career.hust.edu.cn/">研究生就业信息网</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="http://tieba.baidu.com/f?kw华中科技大学研究生&ie=utf-8">华中科技大学研究生吧</a></li>
+                        <li><a href="http://diploma.hust.edu.cn/index.jsp">研究生HUB系统</a></li>
+                        <li><a href="http://weibo.com/yanchuangxiehui">研究生创新创业基地</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-wrapper" id="software">
+            <div class="title-bar">
+                <div class="title">
+                    <h2>校园软件</h2>
+                </div>
+            </div>
+            <div class="link-bar selected nochange">
+                <div class="links software">
+                    <a href="http://hustpass.hustonline.net/">
+                        <img src="asset/img/校园通.png" alt="华中大校园通" width="44px">
+                        <div class="software-content">
+                            <h6>华中大校园通</h6>
+                            <p>华中大官方APP，专为华科学子打造</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="links software">
+                    <a href="http://ncc.hust.edu.cn/cyxz02/index.jspx">
+                        <img src="asset/img/校园网认证客户端@2x.png" alt="校园网" width="44px">
+                        <div class="software-content">
+                            <h6>校园网客户端</h6>
+                            <p>华中大校园网认证软件</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="landspace">
+    </div>
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="1" data-title="任意门" data-url="http://www.hustgate.com"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"hustgate"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!-- 多说公共JS代码 end -->
+
+    <footer>
+        <div>
+            <span>华中科技大学</span>
+            <span>·</span>
+            <span>大学生新闻中心</span>
+            <span>·</span>
+            <span>醉晚亭</span>
+            <div>
+                <span>如果发现信息有误或者有建议，请联系我们：<a href="mailto:">zuiwan@foxmail.com</a></span>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/main.js"></script>
+</body>
 </html>
